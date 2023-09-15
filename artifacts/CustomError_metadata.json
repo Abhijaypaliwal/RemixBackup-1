@@ -1,0 +1,109 @@
+{
+	"compiler": {
+		"version": "0.8.21+commit.d9974bed"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "withdrawAmt",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "availableAmt",
+						"type": "uint256"
+					}
+				],
+				"name": "LackOfFunds",
+				"type": "error"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"name": "bal",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_receiver",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_withdrawAmt",
+						"type": "uint256"
+					}
+				],
+				"name": "checkCustomError",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "deposit",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"author": "Jitendra Kumar",
+			"kind": "dev",
+			"methods": {},
+			"title": "A contract for demonstrate custom error",
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"notice": "For now, this contract just show how custom error generates if owner address amount is less than withdraw amount",
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"error.sol": "CustomError"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"error.sol": {
+			"keccak256": "0xc3a98a26a9e5de3ca2517b05e142bf92681beaa3f83cebf5d6d57cbb8f71ec2e",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://8813628fd87c48f3ae8589f496e25009558c098c48620f1d2461fdda36b85f10",
+				"dweb:/ipfs/QmaL3eP3P38aC3cS1QYwqFkvnqEPC3SWs7sQxzjnowtQ7j"
+			]
+		}
+	},
+	"version": 1
+}

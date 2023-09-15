@@ -1,0 +1,58 @@
+{
+	"compiler": {
+		"version": "0.8.21+commit.d9974bed"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "setStr",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"assembly.sol": "demoAssembly"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"assembly.sol": {
+			"keccak256": "0x85e7395733764628eee55b954be90298703e5fa43e4c561f48fff9b47d60fccd",
+			"urls": [
+				"bzz-raw://76091d98689db83fff688db041df61fe51c1085440f40855521c73df0362402c",
+				"dweb:/ipfs/QmX8LSjsNUGA9ex7ifMfjAQnLkFyrmNfR8LQYmnx8soWCJ"
+			]
+		}
+	},
+	"version": 1
+}

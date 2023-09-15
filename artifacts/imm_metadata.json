@@ -1,0 +1,63 @@
+{
+	"compiler": {
+		"version": "0.8.21+commit.d9974bed"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "addr1",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"immutable.sol": "imm"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"immutable.sol": {
+			"keccak256": "0xb4b6014eb99cdfc8261ad8a37af7fd0cb419a2a429520a40a594acd169f4fc3b",
+			"urls": [
+				"bzz-raw://59145f16f18081942fbdf3f83e0d5e26f00933bf2ff046141f8ac7ac957a8761",
+				"dweb:/ipfs/QmTWjLETMQmMCQXDoHXh3jMu1MsARXvTc3YWfoTt4P9xVU"
+			]
+		}
+	},
+	"version": 1
+}
